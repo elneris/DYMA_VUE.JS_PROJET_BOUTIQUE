@@ -1,5 +1,7 @@
 <template>
-    <div></div>
+    <div class="w-25 border product-container">
+        Item
+    </div>
 </template>
 
 <script>
@@ -9,5 +11,7 @@
 </script>
 
 <style scoped>
-
+    .product-container {
+        height: 400px;
+    }
 </style>
