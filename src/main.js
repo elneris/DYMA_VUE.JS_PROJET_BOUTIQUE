@@ -50,6 +50,20 @@ export const eventBus = new Vue({
             },
         ],
         cart: [
+            {
+                id: '1',
+                img: 'https://media.materiel.net/r550/products/MN0005490709_1.jpg',
+                title: ' Razer Blade 15',
+                description: `Avec ce Blade 15 (RZ09-03018F02-R3F1), Razer continue d'étoffer sa gamme de PC Portables. Basé sur un châssis monobloc en aluminium, il intégre un écran bord à bord de 15,6 pouces et en profite pour accueillir un processeur hexacore d'Intel (Coffee Lake). Le reste de ses composants n'est pas en reste : SSD PCIe NVMe, RAM DDR4 2666 MHz, ainsi que la plus puissante carte graphique disponible sur un laptop avec la RTX 2080 (Max-Q)... la liste est longue pour un portable gamer pourtant aux dimensions minimalistes. Découvrez le dès maintenant !`,
+                price: 3199
+            },
+            {
+                id: '2',
+                img: 'https://media.materiel.net/r550/products/MN0005444514_1.jpg',
+                title: 'Alienware M15 R2',
+                description: `Le nouvel Alienware M15 R2 (PT3K2) vous propose un châssis gamer à la configuration puissante, mais qui sait rester résolument mobile. Avec son arsenal impressionnant de composants de haute volée comme sa dalle OLED Ultra HD, ses 2 SSD installés en RAID 0 ou sa carte graphique RTX 2070, il possède les arguments nécessaires pour faire chavirer votre coeur de gamer.`,
+                price: 2999
+            },
         ],
     }
 })
